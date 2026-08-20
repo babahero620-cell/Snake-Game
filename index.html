@@ -115,7 +115,7 @@
 <body>
 
     <h1>Snake Game 🎮</h1>
-    <div id="score-board">स्कोर: <span id="score">0</span></div>
+    <div id="score-board">Score: <span id="score">0</span></div>
     <canvas id="gameCanvas" width="400" height="400"></canvas>
     
     <a href="https://www.instagram.com/zaiddduu___?igsh=MWw2N3BnMGpvbDhrdA==&igsi=MWw2N3BnMGpvbDhrdA==" target="_blank" class="insta-btn">
@@ -154,7 +154,7 @@
 
         function mainGameLoop() {
             if (isGameOver()) {
-                alert("गेम ओवर! आपका कुल स्कोर है: " + score);
+                alert("Game Over! Your Score: " + score);
                 resetGame();
                 return;
             }
